@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header{
+            background-color: #9c088f;
+            padding: 15px;
+            color: rgb(253, 252, 252);
+            text-align: center;
+        }
+        section{
+            margin-top: 20px;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td{
+            border: 1px solid rgb(26, 25, 25);
+        }
+        th, td{
+            padding: 10px;
+            text-align: left;
+        }
+        .contact-form input{
+            padding: 8px;
+            width: 250px;
+            margin: 5px 0;
+        }
+        .submit-btn{
+            background-color: rgba(151, 85, 130, 0.541);
+            color: rgb(255, 255, 255);
+            padding: 8px 15px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <!-- About Section -->
+    <section>
+        <h2>About Me</h2>
+        <img src="siddhu.jpg" height="100" width="90">
+        <p>Hello! I am a web developer passionate about creating clean and simple websites.</p>
+    </section>
+
+    <!-- Skills List -->
+    <section>
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <!-- Projects Table -->
+    <section>
+        <h2>Projects</h2>
+        <table>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Portfolio Website</td>
+                <td>A simple personal portfolio made using HTML.</td>
+            </tr>
+            <tr>
+                <td>To-Do App</td>
+                <td>A small application to add and delete tasks.</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label>Name:</label><br>
+            <input type="text" placeholder="enter the text"><br>
+            
+            <label>Email:</label><br>
+            <input type="email" placeholder="enter your mail"><br>
+
+            <label>pasword:</label><br>
+            <input type="text" placeholder="enter the password"><br>
+
+            <button class="submit-btn">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
